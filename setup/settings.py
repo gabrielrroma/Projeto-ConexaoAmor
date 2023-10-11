@@ -44,6 +44,8 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    "crispy_forms",
+    "crispy_bootstrap4",
     'conexaoAmor',
     'gotinhas',
 ]
@@ -77,6 +79,11 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'setup.wsgi.application'
+
+# Adicionando template packs
+CRISPY_ALLOWED_TEMPLATE_PACKS = "bootstrap4"
+
+CRISPY_TEMPLATE_PACK = "bootstrap4"
 
 
 # Database
