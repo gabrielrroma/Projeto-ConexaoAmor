@@ -1,0 +1,69 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333; /* Alterei a cor de fundo para um tom mais escuro /
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px; / Adicionei uma margem acima da barra de navegação /
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex; / Exibir os itens em linha /
+  justify-content: right; / Centralizar os itens */
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main {
+  margin: 50px 0;
+  text-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+thead {
+  background-color: ⁠ccc;
+  font-weight: bold;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+tr:nth-child(even) {
+  background-color: #eee;
+}
+
+a.adicionar-gotinha {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #000;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}

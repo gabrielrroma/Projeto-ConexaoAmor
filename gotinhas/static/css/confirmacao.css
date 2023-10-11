@@ -1,0 +1,113 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  nav {
+    margin-top: 10px; /* Adicionei uma margem acima da barra de navegação /
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex; / Exibir os itens em linha /
+    justify-content: right; / Centralizar os itens /
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; / Ocupa toda a altura da viewport /
+    margin-top: -40px; / Ajusta a posição vertical para cima /
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  .atividades {
+    background-color: ⁠ccc;
+    padding: 20px;
+  }
+  
+  .confirma-dados {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center; / Centraliza o conteúdo dentro da seção /
+  }
+  
+  input {
+    width: 20%; / Reduz a largura dos botões para que possam caber ao lado um do outro /
+    padding: 10px;
+    border: 1px solid #000000;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: inline-block; / Permite que os botões fiquem um ao lado do outro */
+    border-radius: 5px;
+  }
+  
+  input[type="submit"],
+  input[type="reset"] {
+    background-color: #949494;
+    color: #000000;
+    cursor: pointer;
+  
+  }
+  
+  input[type="submit"]:hover,
+  input[type="reset"]:hover {
+    background-color: #ffffff;
+  }
+  
+  .titulo-confirmar {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .nome,
+  .sobrenome,
+  .data_nascimento,
+  .comprovante_residencia,
+  .documentos_responsavels,
+  .certidao_nascimento {
+    display: inline-block;
+    width: 50%;
+    padding: 10px;
+    border: 1px solid ⁠ccc;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  
+  .comprovante_residencia,
+  .documentos_responsavels,
+  .certidao_nascimento {
+    background-color: #f2f2f2;
+    width: 50%;
+    padding: 20px;
+    border: 1px solid ⁠ccc;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+  }
+  
+  .botoes-confirmacao {
+    margin-top: 20px;
+  }

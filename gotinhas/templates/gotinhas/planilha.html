@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Página Inicial{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Planilha de alunos</title>
+    <link rel="stylesheet" href="{% static 'css/planilha.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Atividades</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Alunos inscritos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Número de gotinhas</th>
+                    <th>Nome</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td>1</td><td>Maria</td></tr>
+                <tr><td>2</td><td>Thiago</td></tr>
+                <tr><td>3</td><td>João</td></tr>
+                <tr><td>4</td><td>Maria Eduarda</td></tr>
+                <tr><td>5</td><td>Guilherme</td></tr>
+                <tr><td>6</td><td>Henrique</td></tr>
+                <tr><td>7</td><td>Fernanda</td></tr>
+                <tr><td>8</td><td>Julia</td></tr>
+                <tr><td>9</td><td>Marina</td></tr>
+                <tr><td>10</td><td>Theo</td></tr>
+                <tr><td>11</td><td>Felipe</td></tr>
+                <tr><td>12</td><td>Joana</td></tr>
+            </tbody>
+        </table>
+        <a href="#" class="adicionar-gotinha">Adicionar gotinha</a>
+    </main>
+</body>
+<script src="{% static 'js/planilha.js' %}"></script>
+</html>
+{% endblock %}

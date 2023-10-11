@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Página Inicial{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'css/cadastro.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="links">
+                <li><a href="#">Atividades</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Adicionar Gotinha</h1>
+    <form action="/cadastro" method="post">
+        <div class="form-container">
+            <div class="campos-esquerda">
+                <div class="campo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                </div>
+                <div class="campo">
+                    <label for "sobrenome">Sobrenome:</label>
+                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                </div>
+                <div class="campo">
+                    <label for="data-nascimento">Data de nascimento:</label>
+                    <input type="date" name="data-nascimento" id="data-nascimento">
+                </div>
+            </div>
+            <div class="campo-direita">
+                <label for="arquivo">Documento:</label>
+                <input type="file" name="arquivo" id="arquivo">
+            </div>
+        </div>
+        <div class="botoes">
+            <input type="submit" value="Cadastrar">
+            <input type="reset" value="Cancelar">
+        </div>
+    </form>
+</body>
+<script src="{% static 'js/cadastro.js' %}"></script>
+</html>
+{% endblock %}

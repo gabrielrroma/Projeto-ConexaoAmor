@@ -1,0 +1,55 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Página Inicial{% endblock %}
+
+{% block content %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Confirmar Dados</title>
+  <link rel="stylesheet" href="{% static 'css/confirmacao.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#">Atividades</a></li>
+                <li><a href="#">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+  <main>
+    <section class="confirma-dados">
+        <div class="titulo-confirmar">Confirmar Dados</div>
+        <div class="nome">Nome</div>
+        <div class="sobrenome">Sobrenome</div>
+        <div class="data_nascimento">Data de nascimento</div>
+        <div class="comprovante_residencia">
+          <h2>Comprovante de Residência</h2>
+          <p>Endereço: [Inserir endereço fixo]</p>
+          <!-- Adicione outras informações fixas relevantes -->
+      </div>
+
+      <div class="documentos_responsavels">
+          <h2>Documentos do Responsável</h2>
+          <p>Nome do Responsável: [Inserir nome fixo]</p>
+          <!-- Adicione outras informações fixas relevantes -->
+      </div>
+
+      <div class="certidao_nascimento">
+          <h2>Certidão de Nascimento</h2>
+          <p>Número da Certidão: [Inserir número fixo]</p>
+          <!-- Adicione outras informações fixas relevantes -->
+      </div>
+
+      <div class="botoes-confirmacao">
+        <input type="submit" value="Confirmar">
+        <input type="reset" value="Cancelar">
+      </div>
+    </section>
+  </main>
+</body>
+<script src="{% static 'js/confirmacao.js' %}"></script>
+</html>
+{% endblock %}
