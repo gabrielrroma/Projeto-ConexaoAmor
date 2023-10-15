@@ -34,6 +34,35 @@ https://github.com/marimmbc/ConexaoAmor/assets/137455847/c25f4220-4a0b-4bbd-8533
 ![WhatsApp Image 2023-10-10 at 17 53 55](https://github.com/marimmbc/ConexaoAmor/assets/137455847/fa3daa97-48df-435a-96ba-e204d065c7fc)
 
 
+# Instruções de para instalar o projeto:
+
+Para configurar o ambiente e iniciar a aplicação, siga os passos abaixo:
+
+- Instale o Pyhton 11 na sua maquina
+
+-Clonar o repositório do projeto com o seguinte comando:
+git clone https://github.com/marimmbc/Projeto-ConexaoAmor
+
+ou, para clonar apenas a versão mais recente:
+git clone --depth=1 https://github.com/marimmbc/Projeto-ConexaoAmor
+
+-Instale as extensões necessárias no VS Code:
+Após abrir o VS Code, pesquise e instale as seguintes extensões:
+
+ms-python.vscode-pylance
+ms-python.python
+batisteo.vscode-django
+
+-Crie um ambiente virtual executando o comando:
+python -m venv venv
+
+-Ative o ambiente virtual (para Windows) com o seguinte comando:
+venv\Scripts\activate
+
+-Instale as dependências do projeto a partir do arquivo requirements.txt:
+pip install -r ./requirements.txt
+
+
 # Relato da experiência em programação em par experimentado :
 
 Discussão: Ao concluir o projeto, observamos que a programação em par demandou mais tempo do que se cada um de nós tivesse programado individualmente, principalmente devido às discussões frequentes. No entanto, o código resultante revelou-se de alta qualidade, com menos erros e uma estrutura mais sólida. A experiência, embora desafiadora, foi incrivelmente enriquecedora. A colaboração estreita permitiu que trocássemos ideias e aprendêssemos uns com os outros, aprimorando nossos conhecimentos e habilidades.
