@@ -40,26 +40,26 @@ Para configurar o ambiente e iniciar a aplicação, siga os passos abaixo:<br/>
 
 - Instale o Pyhton 11 na sua maquina<br/>
 
--Clonar o repositório do projeto com o seguinte comando:<br/>
+- Clonar o repositório do projeto com o seguinte comando:<br/>
 git clone https://github.com/marimmbc/Projeto-ConexaoAmor
 
 ou, para clonar apenas a versão mais recente:<br/>
 git clone --depth=1 https://github.com/marimmbc/Projeto-ConexaoAmor
 
--Instale as extensões necessárias no VS Code:<br/>
+- Instale as extensões necessárias no VS Code:<br/>
 Após abrir o VS Code, pesquise e instale as seguintes extensões:<br/>
 
 ms-python.vscode-pylance<br/>
 ms-python.python<br/>
 batisteo.vscode-django<br/>
 
--Crie um ambiente virtual executando o comando:<br/>
+- Crie um ambiente virtual executando o comando:<br/>
 python -m venv venv
 
--Ative o ambiente virtual (para Windows) com o seguinte comando:<br/>
+- Ative o ambiente virtual (para Windows) com o seguinte comando:<br/>
 venv\Scripts\activate
 
--Instale as dependências do projeto a partir do arquivo requirements.txt:<br/>
+- Instale as dependências do projeto a partir do arquivo requirements.txt:<br/>
 pip install -r ./requirements.txt
 
 # Relato da experiência em programação em par experimentado :
