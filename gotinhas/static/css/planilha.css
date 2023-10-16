@@ -5,22 +5,22 @@ body {
 }
 
 header {
-  background-color: #333; /* Alterei a cor de fundo para um tom mais escuro /
+  background-color: #333;
   color: #fff;
   padding: 10px;
   text-align: center;
 }
 
 nav {
-  margin-top: 10px; / Adicionei uma margem acima da barra de navegação /
+  margin-top: 10px;
 }
 
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex; / Exibir os itens em linha /
-  justify-content: right; / Centralizar os itens */
+  display: flex; 
+  justify-content: right; 
 }
 
 li {

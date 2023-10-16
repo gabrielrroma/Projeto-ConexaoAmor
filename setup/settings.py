@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     "crispy_bootstrap4",
     'conexaoAmor',
     'gotinhas',
+    'users',
 ]
 
 MIDDLEWARE = [

@@ -11,15 +11,15 @@ body {
   }
   
   nav {
-    margin-top: 10px; /* Adicionei uma margem acima da barra de navegação /
+    margin-top: 10px;
   }
   
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    display: flex; / Exibir os itens em linha /
-    justify-content: right; / Centralizar os itens /
+    display: flex; 
+    justify-content: right; 
   }
   
   li {
@@ -35,8 +35,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 100vh; / Ocupa toda a altura da viewport /
-    margin-top: -40px; / Ajusta a posição vertical para cima /
+    height: 100vh; 
+    margin-top: -40px; 
   }
   
   section {
@@ -51,16 +51,16 @@ body {
   .confirma-dados {
     background-color: #fff;
     padding: 20px;
-    text-align: center; / Centraliza o conteúdo dentro da seção /
+    text-align: center; 
   }
   
   input {
-    width: 20%; / Reduz a largura dos botões para que possam caber ao lado um do outro /
+    width: 20%; 
     padding: 10px;
     border: 1px solid #000000;
     margin-bottom: 10px;
     box-sizing: border-box;
-    display: inline-block; / Permite que os botões fiquem um ao lado do outro */
+    display: inline-block; 
     border-radius: 5px;
   }
   

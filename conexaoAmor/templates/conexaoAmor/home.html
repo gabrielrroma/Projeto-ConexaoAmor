@@ -1,9 +1,42 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block title %}Página Inicial{% endblock %}
 
 {% block content %}
-<h1>Bem vindo ao
-    Conexão Amor
-</h1>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Conexão Amor</title>
+  <!-- Inclua o link para o CSS do Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css">
+  <!-- Inclua o link para seu arquivo CSS personalizado -->
+  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+  <!-- Container Bootstrap para conter o conteúdo -->
+  <div class="container">
+    <!-- Cabeçalho -->
+    <header class="bg-dark text-white">
+      <h1 class="text-center">Bem vindo ao Conexão Amor</h1>
+    </header>
+    <!-- Conteúdo principal -->
+    <main>
+      <section class="mt-4">
+        <!-- Imagem à esquerda -->
+        <div class="col-md-6">
+            <img src="{% static 'img/bob.jpeg' %}" class="img-fluid" alt="Imagem">
+        </div>
+        <h2 class="text-center">Entrar como:</h2>
+        <ul class="list-inline text-center">
+          <li class="list-inline-item">
+            <a class="btn btn-primary" href="/users/login_adminONG">Administrador</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
+
 {% endblock %}
