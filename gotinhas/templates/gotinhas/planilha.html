@@ -1,13 +1,13 @@
 {% extends 'base.html' %}
 {% load static %}
-{% block title %}Página Inicial{% endblock %}
+{% block title %}Lista de Gotinhas{% endblock %}
 
 {% block content %}
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <title>Planilha de alunos</title>
+    <title>Lista de Crianças</title>
     <link rel="stylesheet" href="{% static 'css/planilha.css' %}">
 </head>
 <body>
@@ -20,32 +20,48 @@
         </nav>
     </header>
     <main>
-        <h2>Alunos inscritos</h2>
-        <table>
+        <h1>Lista de Crianças Cadastradas</h1>
+        <table class="table table-striped">
             <thead>
                 <tr>
-                    <th>Número de gotinhas</th>
+                    <th>Número Gotinha</th>
                     <th>Nome</th>
+                    <th>Data de Nascimento</th>
                 </tr>
             </thead>
             <tbody>
-                <tr><td>1</td><td>Maria</td></tr>
-                <tr><td>2</td><td>Thiago</td></tr>
-                <tr><td>3</td><td>João</td></tr>
-                <tr><td>4</td><td>Maria Eduarda</td></tr>
-                <tr><td>5</td><td>Guilherme</td></tr>
-                <tr><td>6</td><td>Henrique</td></tr>
-                <tr><td>7</td><td>Fernanda</td></tr>
-                <tr><td>8</td><td>Julia</td></tr>
-                <tr><td>9</td><td>Marina</td></tr>
-                <tr><td>10</td><td>Theo</td></tr>
-                <tr><td>11</td><td>Felipe</td></tr>
-                <tr><td>12</td><td>Joana</td></tr>
+                {% for gotinha in gotinhas %}
+                    <tr>
+                        <td>{{ gotinha.number }}</td> <!-- Adiciona o número do Gotinha -->
+                        <td>{{ gotinha.first_name }} {{ gotinha.last_name }}</td>
+                        <td>{{ gotinha.birthdate }}</td>
+                    </tr>
+                {% endfor %}
             </tbody>
         </table>
-        <a href="/gotinhas/cadastroGotinhas" class="adicionar-gotinha">Adicionar gotinha</a>
+        
+        <div class="pagination">
+            <span class="step-links">
+                {% if gotinhas.has_previous %}
+                    <a href="?page=1">&laquo; first</a>
+                    <a href="?page={{ gotinhas.previous_page_number }}">previous</a>
+                {% endif %}
+                
+                <span class="current-page">
+                    Página {{ gotinhas.number }} de {{ gotinhas.paginator.num_pages }}.
+                </span>
+                
+                {% if gotinhas.has_next %}
+                    <a href="?page={{ gotinhas.next_page_number }}">next</a>
+                    <a href="?page={{ gotinhas.paginator.num_pages }}">last &raquo;</a>
+                {% endif %}
+            </span>
+        </div>
+        <!-- Adicione o botão "Adicionar Gotinha" -->
+        <a href="/gotinhas/cadastroGotinhas/" class="btn btn-primary">Adicionar Gotinha</a>
+
     </main>
+    <script src="{% static 'js/planilha.js' %}"></script>
 </body>
-<script src="{% static 'js/planilha.js' %}"></script>
 </html>
 {% endblock %}

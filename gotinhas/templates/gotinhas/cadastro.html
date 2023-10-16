@@ -19,20 +19,21 @@
         </nav>
     </header>
     <h1>Adicionar Gotinha</h1>
-    <form action="/cadastro" method="post">
+    <form action="/gotinhas/cadastroGotinhas/" method="post">
+        {% csrf_token %}
         <div class="form-container">
             <div class="campos-esquerda">
                 <div class="campo">
                     <label for="nome">Nome:</label>
-                    <input type="text" name="nome" id="nome" placeholder="Nome">
+                    <input type="text" name="first_name" id="nome" placeholder="Nome">
                 </div>
                 <div class="campo">
-                    <label for "sobrenome">Sobrenome:</label>
-                    <input type="text" name="sobrenome" id="sobrenome" placeholder="Sobrenome">
+                    <label for="sobrenome">Sobrenome:</label>
+                    <input type="text" name="last_name" id="sobrenome" placeholder="Sobrenome">
                 </div>
                 <div class="campo">
                     <label for="data-nascimento">Data de nascimento:</label>
-                    <input type="date" name="data-nascimento" id="data-nascimento">
+                    <input type="date" name="birthdate" id="data-nascimento">
                 </div>
             </div>
             <div class="campo-direita">
@@ -41,7 +42,10 @@
             </div>
         </div>
         <div class="botoes">
-            <input type="submit" value="Cadastrar">
+                <!-- Seus campos de formulário aqui -->
+                <button type="submit">Cadastrar</button>
+            </form>
+            
             <input type="reset" value="Cancelar">
         </div>
     </form>
