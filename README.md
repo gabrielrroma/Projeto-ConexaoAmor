@@ -29,6 +29,9 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 
 https://github.com/marimmbc/ConexaoAmor/assets/137455847/c25f4220-4a0b-4bbd-8533-7cfb9a17c61e
 
+# Screecast do uso da aplicação : <br/>
+[**link do screencast**]( https://drive.google.com/file/d/1CwXIQ8sXfZe65JT-h3E8X9ZTJ8Ghb0ag/view?usp=sharing) <br/>
+
 # Diagrama de atividades do sistema :
 
 ![WhatsApp Image 2023-10-10 at 17 53 55](https://github.com/marimmbc/ConexaoAmor/assets/137455847/fa3daa97-48df-435a-96ba-e204d065c7fc)
