@@ -40,8 +40,8 @@ def register_adminONG(request):
 			password = form.cleaned_data['password1']
 			user = authenticate(username=username, password=password)
 			login(request, user)
-			messages.success(request, ("Registration Successful!"))
-			return redirect('/users/login_adminONG')
+			messages.success(request, ("Usuário registrado!"))
+			return redirect('/conexaoAmor/atividades/')
 	else:
 		form = RegisterAdminONGForm()
 
