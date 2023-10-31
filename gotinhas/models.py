@@ -6,6 +6,10 @@ class Gotinhas(models.Model):
     birthdate = models.DateField()
     number = models.IntegerField(default=0)
     # Adicione outros campos conforme necessário
+    #anotacoes sobre o gotinha
+    anotacoes = models.TextField(blank=True, null=True)
+
+
     def __str__(self):
         return f"{self.first_name} {self.last_name}"
 

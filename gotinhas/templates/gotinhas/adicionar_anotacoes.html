@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Adicionar Anotações{% endblock %}
+{% block content %}
+    <h1>Adicionar Anotações para {{ gotinha.first_name }} {{ gotinha.last_name }}</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="anotacoes">Anotações:</label>
+        <textarea name="anotacoes" id="anotacoes" rows="4" cols="50" required>{{ anotacoes_existentes }}</textarea><br>
+        <input type="submit" value="Adicionar Anotações">
+    </form>
+    <a href="{% url 'selecionar_gotinha' %}">Voltar à Lista de Gotinhas</a>
+{% endblock %}

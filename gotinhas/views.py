@@ -30,3 +30,33 @@ def excluir_gotinha(request, gotinha_id):
     gotinha = get_object_or_404(Gotinhas, id=gotinha_id)
     gotinha.delete()
     return redirect('/gotinhas/listarGotinhas/')
+
+
+# views.py
+
+def selecionar_gotinha(request):
+    gotinhas = Gotinhas.objects.all()
+    if request.method == 'POST':
+        gotinha_id = request.POST.get('gotinha')
+        return redirect('adicionar_anotacoes', gotinha_id=gotinha_id)
+    return render(request, 'gotinhas/selecionar_gotinha.html', {'gotinhas': gotinhas})
+
+
+
+def adicionar_anotacoes(request, gotinha_id):
+    gotinha = get_object_or_404(Gotinhas, id=gotinha_id)
+
+    # Verifique se há anotações existentes
+    anotacoes_existentes = gotinha.anotacoes if gotinha.anotacoes else ''
+
+    if request.method == 'POST':
+        # Obtenha as anotações do POST
+        anotacoes = request.POST.get('anotacoes')
+
+        # Salve as anotações no "gotinha"
+        gotinha.anotacoes = anotacoes
+        gotinha.save()
+
+        return redirect('selecionar_gotinha')  # Redirecione para a página 'selecionar_gotinha'
+
+    return render(request, 'gotinhas/adicionar_anotacoes.html', {'gotinha': gotinha, 'anotacoes_existentes': anotacoes_existentes})
