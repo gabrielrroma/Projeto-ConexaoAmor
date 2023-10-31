@@ -23,11 +23,13 @@
     <!-- Conteúdo principal -->
     <main>
       <section class="mt-4">
-        </div>
         <h2 class="text-center">Entrar como:</h2>
         <ul class="list-inline text-center">
           <li class="list-inline-item">
-            <a class="btn btn-primary" href="/users/login_adminONG">Administrador</a>
+            <a class="btn btn-primary" href="{% url 'adminong_login' %}">Administrador</a>
+          </li>
+          <li class="list-inline-item">
+            <a class="btn btn-primary" href="{% url 'professor_login' %}">Professor</a>
           </li>
         </ul>
       </section>

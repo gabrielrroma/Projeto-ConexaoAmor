@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %}Registro de Professor{% endblock %}
+{% block content %}
+    <h1>Registro de Professor</h1>
+    <form method="post">
+        {% csrf_token %}
+        <label for="username">Nome de usuário:</label>
+        <input type="text" name="username" required><br>
+
+        <label for="password">Senha:</label>
+        <input type="password" name="password" required><br>
+
+        <input type="submit" value="Registrar">
+    </form>
+{% endblock %}

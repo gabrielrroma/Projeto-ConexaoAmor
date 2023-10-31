@@ -22,7 +22,9 @@ urlpatterns = [
     path('', include('conexaoAmor.urls')),
     path('', include('gotinhas.urls')),
     path('cadastroGotinhas/', include('gotinhas.urls')),
-    path('users/', include('django.contrib.auth.urls')),
-    path('users/', include('users.urls'), name='users'),
+    #path('users/', include('django.contrib.auth.urls')),
+    #path('users/', include('users.urls'), name='users'),
+    path('usuarios/', include('usuarios.urls')), 
+
 
 ]
