@@ -14,8 +14,8 @@
     <header>
         <nav>
             <ul>
-                <li><a href="#">Atividades</a></li>
-                <li><a href="#">Sair</a></li>
+                <li><a href="/conexaoAmor/atividades/">Atividades</a></li>
+                <!-- <li><a href="#">Sair</a></li> -->
             </ul>
         </nav>
     </header>
@@ -35,6 +35,12 @@
                         <td>{{ gotinha.number }}</td> <!-- Adiciona o número do Gotinha -->
                         <td>{{ gotinha.first_name }} {{ gotinha.last_name }}</td>
                         <td>{{ gotinha.birthdate }}</td>
+                        <td>
+                            <form method="post" action="{% url 'excluir_gotinha' gotinha.id %}">
+                                {% csrf_token %}
+                                <button type="submit">Excluir</button>
+                            </form>
+                        </td>
                     </tr>
                 {% endfor %}
             </tbody>

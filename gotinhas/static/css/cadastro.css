@@ -16,6 +16,7 @@ form {
   margin: 0 auto;
   background-color: #f5f5f5;
   border-radius: 5px;
+  padding: 20px; /* Adicionei um padding para melhor espaçamento */
 }
 
 .campo {
@@ -31,7 +32,7 @@ form {
 input {
   width: 100%;
   padding: 10px;
-  border: 1px solid ⁠ccc;
+  border: 1px solid #ccc; /* Corrigido o valor da cor */
   border-radius: 5px;
   color: #333;
 }
@@ -39,29 +40,28 @@ input {
 .botoes {
   text-align: right;
   display: flex;
+  justify-content: flex-end; /* Alinhar botões à direita */
+  margin-top: 20px; /* Espaçamento superior */
 }
 
-input[type="submit"] {
+button, input[type="button"], input[type="reset"] {
   background-color: #000;
   color: #fff;
   font-size: 18px;
   padding: 10px;
   cursor: pointer;
+  border: none; /* Removido a borda dos botões */
+  margin-left: 10px; /* Espaço entre os botões */
 }
 
-input[type="reset"] {
-  background-color: transparent;
-  border: 1px solid ⁠ccc;
-  color: #333;
-  font-size: 18px;
-  padding: 10px;
-  cursor: pointer;
+button:hover, input[type="button"]:hover, input[type="reset"]:hover {
+  background-color: #333; /* Cor quando hover */
 }
 
 .form-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between; /* Espaço entre os campos */
   padding: 1em;
 }
 
@@ -74,7 +74,7 @@ input[type="reset"] {
 .campo-direita {
   flex: 1;
   text-align: left;
-  padding: 70px;
+  padding: 10px; /* Reduzido o padding para alinhar com a esquerda */
 }
 
 nav {
@@ -87,12 +87,13 @@ ul {
   padding: 0;
   margin: 0;
   display: flex;
-  justify-content: right;
+  justify-content: flex-end; /* Alinhar à direita */
 }
 
 li a {
   margin-right: 20px;
   color: #fff;
+  text-decoration: none; /* Remover sublinhado dos links */
 }
 
 header {

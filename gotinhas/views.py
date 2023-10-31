@@ -1,4 +1,4 @@
-from django.shortcuts import render , redirect
+from django.shortcuts import render , redirect , get_object_or_404
 
 from .models import Gotinhas
 from .forms import GotinhasForm
@@ -25,3 +25,8 @@ def cadastrarGotinhas(request):
 
 def confirmarGotinhas(request):
     return render(request, 'gotinhas/confirmacao.html')
+
+def excluir_gotinha(request, gotinha_id):
+    gotinha = get_object_or_404(Gotinhas, id=gotinha_id)
+    gotinha.delete()
+    return redirect('/gotinhas/listarGotinhas/')

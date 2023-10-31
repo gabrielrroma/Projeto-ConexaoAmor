@@ -12,7 +12,7 @@ class Gotinhas(models.Model):
     def save(self, *args, **kwargs):
         # Verifica se é um novo "Gotinha" (id é None)
         if self.pk is None:
-            # Encontra o número mais alto atualmente e incrementa em 1
+            # Encontra o número mais alto e incrementa em 1
             max_number = Gotinhas.objects.all().aggregate(models.Max('number'))['number__max']
             if max_number is not None:
                 self.number = max_number + 1
@@ -21,7 +21,7 @@ class Gotinhas(models.Model):
         super(Gotinhas, self).save(*args, **kwargs)
 
     def delete(self, *args, **kwargs):
-        # Obtém o número do "Gotinha" que está sendo excluído
+        # Numero do gotinha excluido
         deleted_number = self.number
         super(Gotinhas, self).delete(*args, **kwargs)
 
