@@ -21,6 +21,8 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 
 - Eu como usuario professor ,gostaria de aplicar a auto avaliação dos gotinhos na minha sala.
 
+- Eu como  administrador, quero poder ter a opção de poder excluir algum gotinha.
+
 # Histórias que serão implementadas :
 
 - Eu como administrador, gostaria de poder cadastrar os gotinhas.
