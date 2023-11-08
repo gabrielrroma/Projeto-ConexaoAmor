@@ -7,23 +7,7 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 
 # [**Link da Azure**](https://conexaoamor.azurewebsites.net/)
 
-# Histórias de usuário :
-
-- Eu como usuario professor, gostaria de poder relatar a freguência dos gotinhas.
-
-- Eu como administrador, gostaria de poder selecionar os alunos e ver todos os seus relatórios e atividades.
-
-- Eu como usuario gotinha, gostaria de fazer uma autoavaliação por emojis.
-
-- Eu como administrador, gostaria de poder cadastrar os gotinhas.
-
-- Eu como usuario administrador, gostria de ter acesso a uma planilha com todos os alunos inscritos.
-
-- Eu como usuario professor ,gostaria de aplicar a auto avaliação dos gotinhos na minha sala.
-
-- Eu como  administrador, quero poder ter a opção de poder excluir algum gotinha.
-
-# Histórias que serão implementadas :
+# Histórias do usuário implementadas :
 
 - Eu como administrador, gostaria de poder cadastrar os gotinhas.
 
