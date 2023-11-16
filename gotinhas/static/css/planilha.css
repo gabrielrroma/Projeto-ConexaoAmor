@@ -11,26 +11,8 @@ header {
   text-align: center;
 }
 
-nav {
-  margin-top: 10px;
-}
 
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex; 
-  justify-content: right; 
-}
 
-li {
-  margin-right: 20px;
-}
-
-a {
-  text-decoration: none;
-  color: #fff;
-}
 
 main {
   margin: 50px 0;

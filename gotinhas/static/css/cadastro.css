@@ -77,24 +77,6 @@ button:hover, input[type="button"]:hover, input[type="reset"]:hover {
   padding: 10px; /* Reduzido o padding para alinhar com a esquerda */
 }
 
-nav {
-  margin-top: 10px;
-  color: #fff;
-}
-
-ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: flex;
-  justify-content: flex-end; /* Alinhar à direita */
-}
-
-li a {
-  margin-right: 20px;
-  color: #fff;
-  text-decoration: none; /* Remover sublinhado dos links */
-}
 
 header {
   background-color: #333;
