@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.menu {
+    background-color: #C5D9EF;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 15rem;
+}
+.menu button {
+  margin-bottom: 22.9rem;
+}
+.option {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.painel-geral {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.painel-geral h2{
+  background-color: #b2c5da;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+}
+.link-container {
+  background-color: #b2c5da;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  padding-right: 2rem;
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.link-container button.option a:hover {
+    color: #C5D9EF;
+}
+
+.link-container button {
+    border: none;
+    padding: 0;
+    background: none;
+}
+
+.painel-link {
+    text-decoration: none;
+    color: black;
+}

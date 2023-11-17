@@ -1,0 +1,35 @@
+h1 {
+    font-size: 10px;
+}
+
+.login-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-header h2 {
+    background-color: #b2c5da;
+    border-radius: 10px;
+    padding: 10px;
+    color: black;
+}
+
+h2 {
+    background-color: red;
+}
+
+.main {
+    background-color: red;
+}
+
+.menu {
+    background-color: #C5D9EF;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.menu h2 {
+    margin-bottom: 5.5rem;
+}

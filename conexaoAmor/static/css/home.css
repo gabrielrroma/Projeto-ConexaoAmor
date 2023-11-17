@@ -8,3 +8,45 @@ img {
 .col-md-6:last-child {
   margin-right: 20;
 }
+
+.bv-cnxamor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.bv-cnxamor h2{
+  background-color: #b2c5da;
+  border-radius: 10px;
+  padding: 10px;
+  color: black;
+}
+
+.menu {
+  background-color: #C5D9EF;
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+.menu h2 {
+  margin-bottom: 5.5rem;
+}
+
+.section-link {
+  padding-bottom: 25.75rem;
+}
+
+.link-container {
+  background-color: #b2c5da;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  display: inline;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.link-distance {
+  margin-right: 2rem;
+  padding-left: 5rem;
+}

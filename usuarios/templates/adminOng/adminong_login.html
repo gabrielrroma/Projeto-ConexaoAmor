@@ -1,15 +1,29 @@
 {% extends 'base.html' %}
+{% load static %}
 {% block content %}
-  <h2>Login do AdminOng</h2>
-  <form method="post">
-    {% csrf_token %}
-    <label for="username">Nome de Usuário:</label>
-    <input type="text" name="username" required>
-    <br>
-    <label for="password">Senha:</label>
-    <input type="password" name="password" required>
-    <br>
-    <button type="submit">Login</button>
-  </form>
-  <p>Não tem uma conta? <a href="{% url 'adminong_registration' %}">Registre-se como AdminOng</a></p>
+  <head>
+    <link rel="stylesheet" href="{% static 'css/adminong_login.css' %}" />
+  </head>
+  <body>
+    <div class="menu">
+      <header class="login-header">
+        <h2>Login do AdminOng</h2>
+      </header>
+      <main class="main">
+        <form method="post">
+          {% csrf_token %}
+          <label for="username">Nome de Usuário:</label>
+          <input type="text" name="username" required />
+          <br />
+          <label for="password">Senha:</label>
+          <input type="password" name="password" required />
+          <br />
+          <button type="submit">Login</button>
+        </form>
+        <p>
+          Não tem uma conta? <a href="{% url 'adminong_registration' %}">Registre-se como AdminOng</a>
+        </p>
+      </main>
+    </div>
+  </body>
 {% endblock %}

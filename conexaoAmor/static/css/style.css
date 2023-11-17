@@ -6,28 +6,6 @@
     margin: 0;
 }
 
-/* Navbar */
-
-.navbar {
-    border-bottom: 1px solid #333;
-    margin-bottom: 20px;
-
-}
-
-.navbar-nav {
-    margin: auto;
-}
-
-.navbar-brand {
-    font-weight: bold;
-}
-
-.navbar-light .navbar-nav a.nav-link {
-    color: #333;
-    letter-spacing: 1px;
-}
-
-
 /* Rodapé */
 
 footer {
@@ -67,6 +45,12 @@ img {
     overflow: hidden;
     transform: scale(1);
     transition: all 300ms ease-in-out;
+    color: white;
+  }
+
+  .navbar-logo-img {
+    width: 50px;
+    height: 50px;
   }
   
   .navbar-logout {
@@ -78,3 +62,8 @@ img {
   .nav-link {
     color: white;
   }  
+
+  .navbar-nav li.nav-item a.nav-link:hover {
+    color: #C5D9EF;
+}
+

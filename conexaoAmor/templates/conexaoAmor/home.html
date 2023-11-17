@@ -11,24 +11,24 @@
   <!-- Inclua o link para o CSS do Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/5.3.2/css/bootstrap.min.css">
   <!-- Inclua o link para seu arquivo CSS personalizado -->
-  <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
 </head>
 <body>
   <!-- Container Bootstrap para conter o conteúdo -->
-  <div class="container">
+  <div class="menu">
     <!-- Cabeçalho -->
-    <header class="bg-dark text-white">
-      <h1 class="text-center">Bem vindo ao Conexão Amor</h1>
+    <header class="bv-cnxamor">
+      <h2>Bem vindo ao Conexão Amor</h2>
     </header>
     <!-- Conteúdo principal -->
     <main>
-      <section class="mt-4">
-        <h2 class="text-center">Entrar como:</h2>
-        <ul class="list-inline text-center">
-          <li class="list-inline-item">
+      <section class="section-link">
+        <h2 class="">Faça login:</h2>
+        <ul class="link-container">
+          <li class="list-inline-item ">
             <a class="btn btn-primary" href="{% url 'adminong_login' %}">Administrador</a>
           </li>
-          <li class="list-inline-item">
+          <li class="list-inline-item link-distance">
             <a class="btn btn-primary" href="{% url 'professor_login' %}">Professor</a>
           </li>
         </ul>
@@ -37,5 +37,4 @@
   </div>
 </body>
 </html>
-
 {% endblock %}
