@@ -26,7 +26,7 @@ https://github.com/marimmbc/ConexaoAmor/assets/137455847/c25f4220-4a0b-4bbd-8533
 
 # Diagrama de atividades do sistema :
 
-![WhatsApp Image 2023-10-10 at 17 53 55](https://github.com/marimmbc/ConexaoAmor/assets/137455847/fa3daa97-48df-435a-96ba-e204d065c7fc)
+![Diagrama do Gotas de flor com Amor](https://github.com/marimmbc/Projeto-ConexaoAmor/assets/137455847/4fe7762e-1c7e-45aa-9a8b-2adaccdf1d48)
 
 
 **Instruções de para instalar o projeto:**
