@@ -12,13 +12,17 @@
       <main class="main">
         <form method="post">
           {% csrf_token %}
-          <label for="username">Nome de Usuário:</label>
-          <input type="text" name="username" required />
+          <div class="login-container">
+          <div class="input-modify">
+            <input type="text" name="username" placeholder="Usuário" required />
+          </div>
           <br />
-          <label for="password">Senha:</label>
-          <input type="password" name="password" required />
+          <div class="input-modify">
+          <input type="password" name="password" placeholder="Senha" required />
+          </div>  
           <br />
           <button type="submit">Login</button>
+          </div>
         </form>
         <p>
           Não tem uma conta? <a href="{% url 'adminong_registration' %}">Registre-se como AdminOng</a>

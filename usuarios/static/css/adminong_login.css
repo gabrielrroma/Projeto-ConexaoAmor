@@ -15,12 +15,33 @@ h1 {
     color: black;
 }
 
-h2 {
-    background-color: red;
+.main input {
+    padding: 0.7rem;
+    border-radius: 12px;
+    padding-right: 15rem;
 }
 
-.main {
-    background-color: red;
+.main p {
+    padding-bottom: 22.1rem;
+    padding-top: 1rem;
+}
+
+.login-container {
+    width: 50%;
+    margin-left: 30rem;
+}
+
+.login-container button {
+    font-weight: bold;
+    background-color: #b2c5da;
+    border-radius: 12px;
+    padding: 0.7rem;
+    justify-content: center;
+    width: 20%;
+}
+
+.login-container button:hover {
+    background-color: #b2bdda;
 }
 
 .menu {
