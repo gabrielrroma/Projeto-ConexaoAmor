@@ -14,8 +14,7 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 - Eu como administrador, quero poder ter a opção de poder excluir algum gotinha.
 
 - Eu como administrador, gostria de ter acesso a uma planilha com todos os alunos inscritos.
-
-- Eu como professor ,gostaria de aplicar a auto avaliação dos gotinhos na minha sala. 
+   
 
 # Screecast do protótipo de baixa fidelidade : 
 
