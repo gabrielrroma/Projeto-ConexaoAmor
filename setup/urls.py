@@ -23,6 +23,7 @@ urlpatterns = [
     path('', include('gotinhas.urls')),
     #path('users/', include('django.contrib.auth.urls')),
     #path('users/', include('users.urls'), name='users'),
+    path('atividade/', include('atividades.urls')),
     path('usuarios/', include('usuarios.urls')), 
 
 

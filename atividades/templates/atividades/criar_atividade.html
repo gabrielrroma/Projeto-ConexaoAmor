@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <!-- Criação de Atividade -->
+  <h1>Criar Atividade</h1>
+  <form method="post" action="{% url 'atividades:criar_atividade' %}">
+    {% csrf_token %}
+    <label for="nome">Nome da Atividade:</label>
+    <input type="text" name="nome" required><br>
+
+    <label for="professor">Professor:</label>
+    <input type="text" name="professor" required><br>
+
+    <input type="submit" value="Criar Atividade">
+  </form>
+
+  <a href="{% url 'atividades:listar_atividades' %}">Voltar à Lista de Atividades</a>
+{% endblock %}

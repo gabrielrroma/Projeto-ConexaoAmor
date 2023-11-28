@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <!-- Detalhes da Atividade -->
+  <h1>{{ atividade.nome }}</h1>
+  <p>Professor: {{ atividade.professor }}</p>
+
+  <!-- Lista de Presenças -->
+  <h2>Lista de Presenças</h2>
+  <ul>
+    {% for presenca in presencas %}
+      <li>{{ presenca.aluno.first_name }} {{ presenca.aluno.last_name }} - {{ presenca.data }} - {{ presenca.status }}</li>
+    {% endfor %}
+  </ul>
+
+  <!-- Adicionar Presença -->
+  <a href="{% url 'atividades:adicionar_presenca' atividade.id %}">Adicionar Presença</a>
+
+  <a href="{% url 'atividades:listar_atividades' %}">Voltar à Lista de Atividades</a>
+{% endblock %}

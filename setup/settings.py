@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'conexaoAmor',
     'gotinhas',
     'usuarios',
+    'atividades',
 ]
 
 MIDDLEWARE = [

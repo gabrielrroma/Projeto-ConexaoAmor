@@ -1,0 +1,23 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <!-- Listagem de Atividades -->
+  <h1>Lista de Atividades</h1>
+  {% for atividade in atividades %}
+  <div>
+    <a href="{% url 'atividades:detalhar_atividade' atividade.id %}">
+      {% if atividade.foto %}
+        <img src="{{ atividade.foto.url }}" alt="{{ atividade.nome }}">
+      {% else %}
+        <p></p>
+      {% endif %}
+      <p>{{ atividade.nome }}</p>
+    </a>
+    <a href="{% url 'atividades:excluir_atividade' atividade.id %}">Excluir Atividade</a>
+  </div>
+{% endfor %}
+
+  <!-- Botão para criar uma nova atividade -->
+  <a href="{% url 'atividades:criar_atividade' %}">Criar Nova Atividade</a>
+{% endblock %}

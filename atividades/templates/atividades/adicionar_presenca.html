@@ -1,0 +1,30 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+  <!-- Adicionar Presença -->
+  <h1>Adicionar Presença para {{ atividade.nome }}</h1>
+  <form method="post" action="{% url 'atividades:adicionar_presenca' atividade.id %}">
+    {% csrf_token %}
+
+    <label for="aluno">Aluno:</label>
+    <select name="aluno" required>
+      {% for gotinha in gotinhas %}
+        <option value="{{ gotinha.id }}">{{ gotinha.first_name }} {{ gotinha.last_name }}</option>
+      {% endfor %}
+    </select><br>
+
+    <label for="falta">Falta:</label>
+    <input type="checkbox" name="falta"><br>
+
+    <label for="data">Data:</label>
+    <input type="date" name="data" required><br>
+
+    <label for="turma">Turma:</label>
+    <input type="text" name="turma" required><br>
+
+    <input type="submit" value="Adicionar Presença">
+  </form>
+
+  <a href="{% url 'atividades:detalhar_atividade' atividade.id %}">Voltar aos Detalhes da Atividade</a>
+{% endblock %}
