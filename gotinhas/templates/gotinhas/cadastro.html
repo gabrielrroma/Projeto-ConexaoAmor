@@ -16,30 +16,28 @@
         <div class="form-container">
             <div class="campos-esquerda">
                 <div class="campo">
-                    <label for="nome">Nome:</label>
                     <input type="text" name="first_name" id="nome" placeholder="Nome">
                 </div>
                 <div class="campo">
-                    <label for="sobrenome">Sobrenome:</label>
                     <input type="text" name="last_name" id="sobrenome" placeholder="Sobrenome">
                 </div>
                 <div class="campo">
-                    <label for="data-nascimento">Data de nascimento:</label>
+                    <label for="data-nascimento">Data de nascimento</label>
                     <input type="date" name="birthdate" id="data-nascimento">
                 </div>
             </div>
             <div class="campo-direita">
-                <label for="arquivo">Documento:</label>
+                <label for="arquivo">Documento</label>
                 <input type="file" name="arquivo" id="arquivo">
             </div>
         </div>
         <div class="botoes">
             <!-- Seus campos de formulário aqui -->
-            <button type="submit" class="btn">Cadastrar</button>
             <input type="button" class="btn" value="Voltar" onclick="window.location.href='/gotinhas/listarGotinhas/'">
-            <input type="reset" class="btn" value="Cancelar">
+            <button type="submit" class="btn btn-cadastrar"><span class="btn-text">Cadastrar</span></button>
+            <input type="reset" class="btn" value="Limpar">
         </div>
-        
+    
     </form>
 </body>
 <script src="{% static 'js/cadastro.js' %}"></script>

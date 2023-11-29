@@ -2,6 +2,7 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #C5D9EF;
 }
 
 header {
@@ -10,9 +11,6 @@ header {
   padding: 10px;
   text-align: center;
 }
-
-
-
 
 main {
   margin: 50px 0;
@@ -28,6 +26,8 @@ thead {
   background-color: ⁠ccc;
   font-weight: bold;
 }
+
+
 
 th,
 td {
@@ -48,4 +48,33 @@ a.adicionar-gotinha {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
+}
+
+.table-custom {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #C5D9EF;
+}
+
+.table-custom thead tr th {
+  background-color: #C5D9EF;
+  color: black;
+}
+
+.table-custom tbody {
+  background-color: #f8f9fa;
+}
+
+.table-custom tbody tr {
+  border-bottom: 1px solid #dee2e6;
+}
+
+.table-custom tbody td {
+  padding: 8px;
+  background-color: #C5D9EF;
+}
+
+.btn {
+  margin-bottom: 22.99rem;
 }
