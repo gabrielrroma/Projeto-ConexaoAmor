@@ -30,9 +30,11 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 - Eu como administrador, gostaria de vizualizar todas as informações sobre cada gotinha. 
    
 
-# Screecast do protótipo de baixa fidelidade : 
+# Screecast do protótipo do figma : 
 
-https://github.com/marimmbc/ConexaoAmor/assets/137455847/c25f4220-4a0b-4bbd-8533-7cfb9a17c61e
+
+https://github.com/marimmbc/Projeto-ConexaoAmor/assets/137455847/46a7f083-e824-4f78-bdf1-0c8375a9a61b
+
 
 # Screecast do uso da aplicação : <br/>
 [**link do screencast**]( https://drive.google.com/file/d/1CwXIQ8sXfZe65JT-h3E8X9ZTJ8Ghb0ag/view?usp=sharing) <br/>
