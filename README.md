@@ -25,7 +25,9 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 
 - Eu como administrador quero poder ver os comentários de cada atividade
 
-- 
+- Eu como administrador gostaria de, acompanhar a situação do aluno em cada atividade existente.
+
+- Eu como administrador, gostaria de vizualizar todas as informações sobre cada gotinha. 
    
 
 # Screecast do protótipo de baixa fidelidade : 
