@@ -16,6 +16,16 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 - Eu como administrador, gostria de ter acesso a uma planilha com todos os alunos inscritos.
 
 - Eu como administrador gostaria de ter um painel próprio com todas as opções realizáveis no site
+
+- Eu como administrador gostaria de visualizar todas as atividades existentes.
+
+- Eu como administrador quero adicionar os gotinhas nas atividades
+
+- Eu como administrador quero poder criar novas atividades para os gotinhas
+
+- Eu como administrador quero poder ver os comentários de cada atividade
+
+- 
    
 
 # Screecast do protótipo de baixa fidelidade : 
