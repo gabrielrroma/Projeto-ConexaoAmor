@@ -39,10 +39,12 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 # Screecast do uso da aplicação : <br/>
 [**link do screencast**](https://drive.google.com/file/d/1gt-T3GK1uJM6znuqyiyudTKpS42f49Sa/view?usp=sharing) <br/>
 
+# Screecast de CI/CD : <br/>
+[**link do screencast**](https://drive.google.com/file/d/13p88U9Qct3EISMNhrdjVI-sLJMLS_oDr/view?usp=sharing) <br/>
+
 # Diagrama de atividades do sistema :
 
 ![Diagrama do Gotas de flor com Amor](https://github.com/marimmbc/Projeto-ConexaoAmor/assets/137455847/4fe7762e-1c7e-45aa-9a8b-2adaccdf1d48)
-
 
 **Instruções de para instalar o projeto:**
 
