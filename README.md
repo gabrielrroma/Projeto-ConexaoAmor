@@ -33,7 +33,7 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 # Screecast do protótipo do figma : 
 
 
-https://github.com/marimmbc/Projeto-ConexaoAmor/assets/137455847/46a7f083-e824-4f78-bdf1-0c8375a9a61b
+[**link do screencast**](https://drive.google.com/file/d/166w2Li5cE7D92itrLa9f9NiMjzR0L1TB/view?usp=sharing) <br/>
 
 
 # Screecast do uso da aplicação : <br/>
