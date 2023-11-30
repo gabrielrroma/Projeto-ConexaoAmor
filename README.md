@@ -37,7 +37,7 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 
 
 # Screecast do uso da aplicação : <br/>
-[**link do screencast**]( https://drive.google.com/file/d/1CwXIQ8sXfZe65JT-h3E8X9ZTJ8Ghb0ag/view?usp=sharing) <br/>
+[**link do screencast**](https://drive.google.com/file/d/1gt-T3GK1uJM6znuqyiyudTKpS42f49Sa/view?usp=sharing) <br/>
 
 # Diagrama de atividades do sistema :
 
