@@ -77,7 +77,7 @@ pip install -r ./requirements.txt
 Discussão: Ao concluir o projeto, observamos que a programação em par demandou mais tempo do que se cada um de nós tivesse programado individualmente, principalmente devido às discussões frequentes. No entanto, o código resultante revelou-se de alta qualidade, com menos erros e uma estrutura mais sólida. A experiência, embora desafiadora, foi incrivelmente enriquecedora. A colaboração estreita permitiu que trocássemos ideias e aprendêssemos uns com os outros, aprimorando nossos conhecimentos e habilidades.
 
 Considerações Finais: Nossa experiência destacou a importância da programação em par em projetos que exigem alta qualidade e colaboração. Com o tempo, à medida que nos tornamos mais familiarizados com a abordagem e a forma de trabalhar juntos, esperamos que a eficiência melhore. 
-
+<br/>
 Duplas :
 
 - Rubens Filho, Luiz Flavius e Gabriel Pontes: A experiência no programa foi como uma emocionante dança de equilíbrio, onde desafios e oportunidades se entrelaçaram, fazendo-nos aprender e crescer juntos.
