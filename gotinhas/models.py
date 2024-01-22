@@ -5,8 +5,6 @@ class Gotinhas(models.Model):
     last_name = models.CharField(max_length=100)
     birthdate = models.DateField()
     number = models.IntegerField(default=0)
-    # Adicione outros campos conforme necessário
-    #anotacoes sobre o gotinha
     anotacoes = models.TextField(blank=True, null=True)
 
 

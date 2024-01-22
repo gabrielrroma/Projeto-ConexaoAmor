@@ -56,3 +56,123 @@ body {
     text-decoration: none;
     color: black;
 }
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #1a237e; /* Azul escuro */
+  color: white; /* Texto branco */
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+
+h1 {
+  flex: 1;
+  margin: 0;
+  font-size: 18px;
+  color: white; /* Texto branco */
+}
+
+h2 {
+  margin-bottom: 10px;
+}
+
+section {
+  padding: 20px;
+}
+
+ul.activities {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 220px;
+  line-height: 9.9; /* Ajuste o valor conforme desejado para o espaÃ§amento vertical entre as linhas */
+}
+.item {
+  margin-bottom: 10px;
+  flex-basis: calc(50% - 5px); /* Cria 50% de largura com 5px de espaÃ§amento entre os elementos */
+  box-sizing: border-box;
+}
+
+footer {
+  background-color: #1a237e; /* Azul escuro */
+  color: white; /* Texto branco */
+  text-align: center;
+  padding: 10px;
+}
+
+.artesanato {
+  position: absolute;
+  width: 200px; /* Defina a largura desejada */
+  height: auto; /* MantÃ©m a proporÃ§Ã£o original da imagem */
+  margin-left: -1300px; /* Define uma margem Ã  esquerda para espaÃ§o entre a imagem e o texto */
+  margin-top: 250px; /* Move a imagem para baixo */
+  margin-right: 165px;
+}
+
+.Capoeira {
+  position: absolute;
+  width: 200px; /* Defina a largura desejada */
+  height: auto; /* MantÃ©m a proporÃ§Ã£o original da imagem */
+  margin-left: -1300px; /* Define uma margem Ã  esquerda para espaÃ§o entre a imagem e o texto */
+  margin-top: 420px; /* Move a imagem para baixo */
+  margin-right: 165px;
+}
+
+.Futebol {
+  position: absolute;
+  width: 200px; /* Defina a largura desejada */
+  height: auto; /* MantÃ©m a proporÃ§Ã£o original da imagem */
+  margin-left: -1300px; /* Define uma margem Ã  esquerda para espaÃ§o entre a imagem e o texto */
+  margin-top: 580px; /* Move a imagem para baixo */
+  margin-right: 165px;
+}
+
+.Caligrafia {
+  position: absolute;
+  width: 220px; /* Defina a largura desejada */
+  height: auto; /* MantÃ©m a proporÃ§Ã£o original da imagem */
+  margin-left: 130px; /* Define uma margem Ã  esquerda para espaÃ§o entre a imagem e o texto */
+  margin-top: 250px; /* Move a imagem para baixo */
+  margin-right: 165px;
+}
+
+.VÃ´lei {
+  position: absolute;
+  width: 220px; /* Defina a largura desejada */
+  height: auto; /* MantÃ©m a proporÃ§Ã£o original da imagem */
+  margin-left: 130px; /* Define uma margem Ã  esquerda para espaÃ§o entre a imagem e o texto */
+  margin-top: 420px; /* Move a imagem para baixo */
+  margin-right: 165px;
+}
+
+.Origami {
+  position: absolute;
+  width: 220px; /* Defina a largura desejada */
+  height: auto; /* MantÃ©m a proporÃ§Ã£o original da imagem */
+  margin-left: 130px; /* Define uma margem Ã  esquerda para espaÃ§o entre a imagem e o texto */
+  margin-top: 600px; /* Move a imagem para baixo */
+  margin-right: 165px;
+}
+
+.Adicionaratividade{
+  position: absolute;
+  width: 220px; /* Defina a largura desejada */
+  height: auto; /* MantÃ©m a proporÃ§Ã£o original da imagem */
+  margin-left: 1100px; /* Define uma margem Ã  esquerda para espaÃ§o entre a imagem e o texto */
+  margin-top: 200px; /* Move a imagem para baixo */
+  margin-right: 165px;
+}
+
+.Adicionaratividade {
+  width: 60px; /* Defina a largura desejada */
+  height: auto; /* MantÃ©m a proporÃ§Ã£o original da imagem */
+}
+
