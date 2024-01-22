@@ -30,17 +30,21 @@ O objetivo do projeto Conexão Amor é buscar garantir que os recursos financeir
 - Eu como administrador, gostaria de vizualizar todas as informações sobre cada gotinha. 
    
 
-# Screecast do protótipo de baixa fidelidade : 
+# Screecast do protótipo do figma : 
 
-https://github.com/marimmbc/ConexaoAmor/assets/137455847/c25f4220-4a0b-4bbd-8533-7cfb9a17c61e
+
+[**link do screencast**](https://drive.google.com/file/d/166w2Li5cE7D92itrLa9f9NiMjzR0L1TB/view?usp=sharing) <br/>
+
 
 # Screecast do uso da aplicação : <br/>
-[**link do screencast**]( https://drive.google.com/file/d/1CwXIQ8sXfZe65JT-h3E8X9ZTJ8Ghb0ag/view?usp=sharing) <br/>
+[**link do screencast**](https://drive.google.com/file/d/1gt-T3GK1uJM6znuqyiyudTKpS42f49Sa/view?usp=sharing) <br/>
+
+# Screecast de CI/CD : <br/>
+[**link do screencast**](https://drive.google.com/file/d/13p88U9Qct3EISMNhrdjVI-sLJMLS_oDr/view?usp=sharing) <br/>
 
 # Diagrama de atividades do sistema :
 
 ![Diagrama do Gotas de flor com Amor](https://github.com/marimmbc/Projeto-ConexaoAmor/assets/137455847/4fe7762e-1c7e-45aa-9a8b-2adaccdf1d48)
-
 
 **Instruções de para instalar o projeto:**
 
@@ -75,7 +79,7 @@ pip install -r ./requirements.txt
 Discussão: Ao concluir o projeto, observamos que a programação em par demandou mais tempo do que se cada um de nós tivesse programado individualmente, principalmente devido às discussões frequentes. No entanto, o código resultante revelou-se de alta qualidade, com menos erros e uma estrutura mais sólida. A experiência, embora desafiadora, foi incrivelmente enriquecedora. A colaboração estreita permitiu que trocássemos ideias e aprendêssemos uns com os outros, aprimorando nossos conhecimentos e habilidades.
 
 Considerações Finais: Nossa experiência destacou a importância da programação em par em projetos que exigem alta qualidade e colaboração. Com o tempo, à medida que nos tornamos mais familiarizados com a abordagem e a forma de trabalhar juntos, esperamos que a eficiência melhore. 
-
+<br/>
 Duplas :
 
 - Rubens Filho, Luiz Flavius e Gabriel Pontes: A experiência no programa foi como uma emocionante dança de equilíbrio, onde desafios e oportunidades se entrelaçaram, fazendo-nos aprender e crescer juntos.
